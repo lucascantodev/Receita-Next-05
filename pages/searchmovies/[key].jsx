@@ -1,12 +1,12 @@
 import Link from 'next/link';
 
 const Movies = ({ data }) => {
-  if (data.Error) return <div className='SearchMovies_error'>Error, there was a problem in the request 🙁</div>;
+  if (data.Error) return <div className='SearchMovies_error'>Error, there was a problem in the request 😐</div>;
   if (!data) return <div className='SearchMovies_loading'>Loading...</div>;
 
   return (
     <div className="SearchMoviesContainer">
-      <a className="SearchMoviesContainer_a" href="http://localhost:3000/index">Home</a>
+      <a className="SearchMoviesContainer_a" href="http://localhost:3000/index.jsx">Home</a>
       <h1>Search any movie you want 😁</h1>
       <br />
       <form>

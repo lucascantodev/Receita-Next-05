@@ -47,7 +47,7 @@ export function TheMovies({ data, show }) {
 export function TheLink({ url, handler }) {
   return (
     <div className="MoviesContainer2">
-      <h1 className='MoviesContainer2_h1'>Welcome my friend🫠</h1>
+      <h1 className='MoviesContainer2_h1'>Welcome my friend 🙃</h1>
       <Link className='MoviesContainer2_a' href='index.jsx' onClick={handler}>{url === '' ? 'Show' : 'Hide'}</Link>
       <Link className='MoviesContainer2_a' href='searchmovies/[key].jsx'>Search for a movie</Link>
     </div>
