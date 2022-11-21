@@ -6,7 +6,7 @@ const Movies = ({ data }) => {
 
   return (
     <div className="SearchMoviesContainer">
-      <a className="SearchMoviesContainer_a" href="index.jsx">Home</a>
+      <a className="SearchMoviesContainer_a" href="../">Home</a>
       <h1>Search any movie you want 😁</h1>
       <br />
       <form>

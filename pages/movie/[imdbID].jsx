@@ -2,7 +2,7 @@ export default function Movies({ data }) {
   return (
     <div>
       <div className='MovieContainer'>
-        <a className="SearchMoviesContainer_a" href="index.jsx">Home</a>  
+        <a className="SearchMoviesContainer_a" href="../">Home</a>  
         <h1>Here's some information about:<br/></h1>
         <h2>{data.Title}</h2>
         <img src={data.Poster}></img>
