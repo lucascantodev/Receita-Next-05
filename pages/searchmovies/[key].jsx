@@ -6,11 +6,11 @@ const Movies = ({ data }) => {
 
   return (
     <div className="SearchMoviesContainer">
-      <a className="SearchMoviesContainer_a" href="http://localhost:3000/movies3">Home</a>
+      <a className="SearchMoviesContainer_a" href="http://localhost:3000/index">Home</a>
       <h1>Search any movie you want 😁</h1>
       <br />
       <form>
-      <input className='SearchMoviesContainer_form_input' placeholder="Type here" id="text" name="text" type="text" />
+      <input className='SearchMoviesContainer_form_input' placeholder="Type here" id="text" name="text" type="text"/>
       <input className='SearchMoviesContainer_form_submit' type="submit" value="Search"/>
       </form>
       <br />
