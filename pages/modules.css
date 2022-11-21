@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 20px 60px;
+    max-width: 680px;
+    margin: 0 auto;
+    background-image: linear-gradient(204deg, #8693AB, #84929e);
+    color: white;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.MoviesContainer2 {
+    text-align: center;
+}
+
+.MoviesContainer2_a {
+    text-decoration: none;
+    background-color: #e7e7e7;
+    color: black;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 3px;
+    letter-spacing: 0.2px;
+    transition: 0.8s;
+}
+
+.MoviesContainer2_a:hover {
+    background-color: #979191;
+}
+
+.MoviesContainer {
+    text-align: center;
+}
+
+.MoviesContainer_ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.MoviesContainer_ul_li {
+    margin: 4px 0;
+    padding: 5px;
+}
+
+.MoviesContainer_ul_li_a {
+    text-decoration: none;
+    background-color: #e7e7e7;
+    color: black;
+    cursor: pointer;
+    border: none;
+    padding: 4px;
+    border-radius: 3px;
+    letter-spacing: 0.2px;
+    transition: 0.8s;
+}
+
+.MoviesContainer_ul_li_a:hover {
+    background-color: #979191;
+}
+
+.Movies_loading {
+    text-align: center;
+    padding-top: 25%;
+}
+
+.Movies_error {
+    text-align: center;
+    padding-bottom: 35%;
+}
+
+.MovieContainer {
+    text-align: center;
+    padding-bottom: 35%;
+}
+
+.MovieContainer_ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.MovieContainer_ul li {
+    margin: 4px 0;
+    padding: 5px;
+}
+
+.SearchMoviesContainer {
+    text-align: center;
+}
+
+.SearchMoviesContainer_a {
+    text-decoration: none;
+    background-color: #e7e7e7;
+    color: black;
+    cursor: pointer;
+    border: none;
+    padding: 4px;
+    border-radius: 3px;
+    letter-spacing: 0.2px;
+    transition: 0.8s;
+}
+
+.SearchMoviesContainer_a:hover {
+    background-color: #979191;
+}
+
+.SearchMoviesContainer_form {
+    margin: 4px 0;
+    padding: 5px;
+}
+
+.SearchMoviesContainer_form_input {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.SearchMoviesContainer_form_submit {
+    text-decoration: none;
+    background-color: #e7e7e7;
+    color: black;
+    cursor: pointer;
+    border: none;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 3px;
+    letter-spacing: 0.2px;
+    transition: 0.8s;
+}
