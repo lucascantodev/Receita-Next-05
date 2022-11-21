@@ -7,7 +7,7 @@ export default function Movies() {
   const { data, error } = useSWR(url, theFetcher);
   const onClickHandler = (e) => {
     e.preventDefault();
-    if (url === '') setUrl('http://www.omdbapi.com/?apikey=57d69c78&s=Indiana Jones');
+    if (url === '') setUrl('https://www.omdbapi.com/?apikey=57d69c78&s=Indiana Jones');
     else setUrl('');
   };
 
